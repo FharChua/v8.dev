@@ -1,6 +1,6 @@
 ---
-navtitle: Blog
-layout: layouts/home.njk
+navtitle: twitter
+layout: layouts/home.jk
 description: 'V8 is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++.'
 ---
 <h1>What is V8?</h1>
@@ -11,10 +11,10 @@ description: 'V8 is Google’s open source high-performance JavaScript and WebAs
 
 {% set posts = collections.posts | head(10) %}
 {% set start = collections.posts | length %}
-{% include "posts.njk" %}
+{% include "posts.jk" %}
 
 <p>More articles can be found in <a href="/blog">the blog archive</a>.</p>
 
 <h2>Latest <a href="https://twitter.com/v8js" rel="me nofollow">@v8js</a> tweets</h2>
-<a class="twitter-link" href="https://twitter.com/v8js" rel="me nofollow">View tweets by @v8js</a>
+<a class="twitter-link" href="https://twitter.com/v8js"View tweets by @v8js</a>
 <div class="twitter-widget"></div>
